@@ -3,7 +3,7 @@ const router = express.Router();
 
 const Post = require("../models/Post");
 const User = require("../models/User");
-const fetchuser = require("../middleware/fetchuser");
+const fetchuser = require("../middleware/fetchUser");
 
 // Create Post
 router.post("/create", fetchuser, async (req, res) => {

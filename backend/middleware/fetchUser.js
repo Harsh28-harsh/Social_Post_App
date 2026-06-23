@@ -122,4 +122,4 @@ const fetchuser = async (req, res, next) => {
 
 // middleware export kar rahe hain.
 // Taki dusri route files me import karke use kar saken.
-module.exports = fetchuser;
+module.exports = fetctuser;
