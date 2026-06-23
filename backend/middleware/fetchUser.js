@@ -41,7 +41,7 @@ const JWT_SECRET = process.env.JWT_SECRET
 // fetchallnotes
 //
 // In sab routes me pehle fetchuser chalega.
-const fetchUser = async (req, res, next) => {
+const fetchuser = async (req, res, next) => {
 
 
   // get the user from jwt token and add id to req object
@@ -122,4 +122,4 @@ const fetchUser = async (req, res, next) => {
 
 // middleware export kar rahe hain.
 // Taki dusri route files me import karke use kar saken.
-module.exports = fetctUser;
+module.exports = fetchuser;
